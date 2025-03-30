@@ -4,17 +4,23 @@ This project performs brain tumor segmentation using the COCO dataset format. Th
 
 ## Project Structure
 ```
-brain-tumor-segmentation(Using Dataset)/
-│── data/
-│   ├── train/  # Contains images
-│   ├── train/masks/  # Output folder for masks
-│   ├── _annotations.coco.json  # COCO annotations file
-│── src/
-│   ├── generate_masks.py  # Script to generate masks
-│   ├── visualize_masks.py  # Script to overlay masks on images
-│── requirements.txt  # Dependencies for the project
-│── README.md  # Documentation for GitHub
-│── .gitignore  # Ignore unnecessary files
+Brain Tumor Segmentation using COCO dataset format.
+
+Dataset: Images and COCO annotations for training.
+
+Mask Generation: Converts COCO annotations into black-and-white segmentation masks.
+
+Visualization: Overlays generated masks on original images for validation.
+
+Scripts:
+
+generate_masks.py → Generates segmentation masks from COCO dataset.
+
+visualize_masks.py → Displays original images, masks, and overlays.
+
+Dependencies: numpy, opencv-python, matplotlib, pycocotools (stored in requirements.txt).
+
+GitHub Integration: Steps for version control and pushing code to GitHub.
 ```
 
 ## Setup Instructions
@@ -29,7 +35,7 @@ python --version
 ### 2. Clone the Repository
 To get a local copy of this project, run:
 ```sh
-git clone https://github.com/Anupam2090/brain-tumor-segmentation.git
+git clone https://github.com/Anupam2090/brain-tumor-segmentation-Using-Dataset-.git
 cd brain-tumor-segmentation
 ```
 
@@ -70,7 +76,7 @@ git commit -m "Initial commit"
 ### 3. Link Local Repository to GitHub
 ```sh
 git branch -M main
-git remote add origin https://github.com/Anupam2090/brain-tumor-segmentation.git
+git remote add origin https://github.com/Anupam2090/brain-tumor-segmentation-Using-Dataset-.git
 git push -u origin main
 ```
 
